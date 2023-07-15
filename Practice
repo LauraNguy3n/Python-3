@@ -1,0 +1,95 @@
+#snake case
+
+a_person_age = 10;
+A_person_name = "laura";
+
+print (a_person_age);
+print (A_person_name);
+
+
+
+
+#Pascal case
+
+RandomNumber = 153;
+ANicePerson = "You";
+
+print (RandomNumber);
+print (ANicePerson);
+
+
+
+
+#camel case
+
+favoriteNumber = 4;
+aCoolAnimal = "penguin";
+
+print (favoriteNumber);
+print (aCoolAnimal);
+
+
+
+
+#assign Multiple values:
+
+a, o, p = 1, 2, 3;
+print (a) 
+print (o) 
+print (p) 
+
+l, i, t = "Lemon", "rice", "apple"
+print (l)
+print (i)
+print (t)
+
+z = k = b = 15
+print (z)
+print (k)
+print (b)
+
+#unpack a collection
+
+shapes = ["circle", "square", "rectangle"]
+m,r,q=shapes
+print(m)
+print(q)
+print(r)
+
+#output variables:
+
+u = "wonderful "
+f = "okay "
+n = "bad"
+
+print(u,f,n)
+
+
+U = "You "
+F = "are "
+N = "wonderful."
+
+print(U+F+N)
+
+
+
+#Practice
+
+#Q1:
+
+HelloThere = 123;
+NicePerson = "Python"
+
+print(HelloThere)
+print(NicePerson)
+
+
+
+#Q2
+
+P = 12
+I = 865
+G = 32
+K = 913
+
+print(P,I,G,K)
