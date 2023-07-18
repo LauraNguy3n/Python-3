@@ -1,0 +1,133 @@
+#Python strings: 
+#They are text and it is surrounded by double/single quotes.
+x = "Hello! how are you?"
+print(x)
+
+
+#Get the type: 
+print(type(x))
+
+
+#Length of a string: 
+print(len(x))
+
+
+#Access the string: 
+y="hello!"
+print(y[4])
+
+
+#Looping through a string: 
+for x in "caterpillar":
+    print(x)
+
+
+#Checking a string: 
+text = "i love cats ."
+print("cats" in text)
+
+
+#Slicing string:
+b = "watermelon"
+print(b[0:5])
+c = "programming"
+print(c[0:7])
+
+
+#negative indexing:
+v="laura"
+-1 -2 -3 -4
+print(v[-1:])
+
+
+#Practice
+
+#Slicing strings
+r = "amusement"
+print(r[5:8])
+
+R = "Pneumonoultramicroscopicsilicovolcanoconiosis"
+print(R[8:13])
+
+#Negative indexing
+i="amusement"
+print(i[-4:-1])
+
+R = "Pneumonoultramicroscopicsilicovolcanoconiosis"
+print(R[-37:-32])
+
+
+
+
+
+
+
+
+#modifying strings:
+#upper()method:
+a="hi"
+print(a.upper())
+
+#lower()method: 
+b="HI"
+print(b.lower())
+
+#capitalize()method: capitalizes first letter.
+c="hello"
+print(c.capitalize())
+
+
+#strip()method: removes whitespaces from beginning and end.
+text="       how are you all?               "
+print(text.strip())
+
+
+#replace()method:
+s = "strawberries"
+print(s.replace("Berry","straw"))
+
+
+#split()method:
+i = "great job."
+s = i.split(",")
+print(s)
+
+
+
+
+
+#Practice:
+A = "hello!!"
+print(A.upper())
+
+
+B = "HELLO."
+print(B.lower())
+
+
+C = "hi!"
+print(C.capitalize())
+
+
+D = "     How are you?      "
+print(D.strip())
+
+
+E = "Great!"
+print(E.replace("Wonderful!","Awesome."))
+
+
+F = "nicely done, you were better than last time."
+H = F.split(",")
+print(H)
+
+
+
+
+
+
+#string concatenation: 
+a = "hi"
+b = "laura"
+print(a,b)
+print(a +" "+b)
