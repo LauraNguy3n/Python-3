@@ -1,0 +1,225 @@
+#Format strings:
+text = "Richard is {} years old. His Height is {} tall."
+age = 12
+height = 5
+print(text.format(age,height))
+
+
+#Escape characters:
+#Single quotes(\'):
+text = "It\'s raining heavily..."
+print(text)
+
+
+#New line(\n):
+text = "Hello, \n my name is Laura. I like coding and cats."
+print(text)
+
+
+#Tab (\t)
+text = "I don't feel lonely.\t I am always by my family."
+print(text)
+
+
+#Delete a character(\b)
+text = "I don't \bfeel sad. My family is always there for me.\n"
+print(text)
+
+
+
+
+#Practice:
+
+
+text = "My favorite season is {}. But today it is {}."
+season = "Winter"
+current = "Fall"
+print(text.format(season,current))
+
+
+text = "It\'s so quiet."
+print(text)
+
+text = "Reading \n is very fun."
+print(text)
+
+
+text = "I wish I could \t go outside now."
+print(text)
+
+text = "Where are you?\b"
+print(text)
+
+
+
+
+
+
+
+
+#Booleans
+
+print(12 > 4)
+print(12 < 4)
+print(12 == 12)
+print(12 >= 4)
+print(12 <= 4)
+
+i = 80
+l = 50
+
+print(i > l)
+print(i < l)
+print(i == l)
+print(i >= l)
+print(i <= l)
+
+
+e = 12
+w = 7
+
+if (e>w):
+    print("Nowhere.")
+else:
+    print("Nice job...")
+    
+    
+print(bool(False))
+print(bool())
+print(bool(0))
+print(bool(None))
+print(bool(" "))
+
+print(bool("forseen."))
+print(bool(123.))
+
+x = "Smile."
+m = 10101000
+print(bool(x))
+print(bool(m))
+
+text = "\n"
+print(text)
+
+
+
+
+
+#practice.
+
+
+print(12 > 4)
+print(12 < 4)
+print(12 == 12)
+print(12 >= 4)
+print(12 <= 4)
+
+o = 80
+f = 50
+
+print(o > f)
+print(o < f)
+print(o == f)
+print(o >= f)
+print(o <= f)
+
+
+j = 12
+n = 7
+
+if (n>j):
+    print("Not here.")
+else:
+    print("Denied.")
+    
+    
+print(bool(False))
+print(bool())
+print(bool(0))
+print(bool(" "))
+
+print(bool("forseen."))
+print(bool(123.))
+
+h = "Sitting in my room."
+r = 1001010
+print(bool(h))
+print(bool(r))
+text = " \n"
+print(text)
+
+
+
+
+
+
+#Operators:
+#Arithmetic Operators:
+    # (+, -, *, /, %, ** exponentionation, // floor division)
+    
+x = 100
+y = 9
+
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x%y)
+print(x**y)
+print(x//y)
+
+
+#Assignment Operators:
+    # ( +=, -=, *=, /=, **=, //=, &=, >>=, <<=, |= )
+
+a=5
+a+=3
+print (a)
+
+a=5
+a-=3
+print(a)
+
+a=5
+a*=3
+print (a)
+
+a=35
+a/=3
+print (a)
+
+a=5
+a**=3
+print (a)
+
+a=45
+a//=5
+print (a)
+
+a=5
+a&=3
+print (a)
+
+a=5
+a|=3
+print (a)
+
+a=5
+a<<=3
+print (a)
+
+a=5
+a>>=3
+print (a)
+
+
+#Comparison (==, >, <, >=, <=, !=)
+
+f = 10
+r = 5
+print(f==r)
+print(f!=r)
+print(f>=r)
+print(f<=r)
+print(f<r)
+print(f>r)
