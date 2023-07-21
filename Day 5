@@ -1,0 +1,24 @@
+#Logical Operators (and, or, not): 
+x = 10
+
+#and
+print(x > 5 and  x < 15)
+#or
+print(x > 5 or  x < 15)
+#not
+print(not(x > 4 and x <15))
+
+
+#Identity Operators(is, is not):
+X = ["flower" , "tree" , "plant"]
+Y = ["melon" , "peach" , "pear"]
+z = Y
+print(Y is z)
+print(X is z)
+print(X is not z)
+
+
+#Membership Operators(in, not in):
+i = ["a", "b"]
+print("b" is not i)
+print("b" not in i)
