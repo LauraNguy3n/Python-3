@@ -1,0 +1,64 @@
+#List:
+
+#we use list to store multiple items in one single value.
+#allows duplicate values.
+#use square brackets.
+#built-in data type
+
+fruit = [ "mango" , "peach" , "pear" ]
+print(fruit)
+numbers = [ 12 , 786 , 2572 , 325 , 4234 ]
+print(numbers)
+
+
+
+#list()constructor:
+mylist = list(("apple" , "avocado" , "melon"))
+print(mylist)
+
+
+
+#Practice:
+color = ["black" , "sliver" , "red" , "orange"]
+print(color)
+print(type(color))
+
+party = list(("cakes" , "ballons" , "gifts"))
+print(party)
+
+
+
+#Access items:
+x = ["donut" , "soup" , "cupcake"]
+print(x[1])
+print(x[0])
+
+
+
+#Negitive indexing
+X = ["donut" , "soup" , "cupcake"]
+print(X[-1])
+print(X[-3])
+
+
+
+#
+l = ["grapes" , "blue berry" , "strawberry" , "orange" , "cherry"]
+print(l[2])
+print(l[4])
+
+p = ["grapes" , "blue berry" , "strawberry" , "orange" , "cherry"]
+print(p[-3])
+print(p[-1])
+
+
+
+#Practice
+h = ["a" , "b" , "c" , "d" , "e" , "f"]
+print(h[1])
+print(h[4])
+
+
+h = ["a" , "b" , "c" , "d" , "e" , "f"]
+print(h[-1])
+print(h[-4])
