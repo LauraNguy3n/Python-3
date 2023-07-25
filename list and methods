@@ -1,0 +1,136 @@
+#Update list item:
+mylist = ["pineapple" , "strawberry" , "blueberry"]
+mylist [1] = "cherry"
+print(mylist)
+
+alist = ["pineapple" , "strawberry" , "blueberry" , "watermelon" , "orange" , "grapes"]
+alist [1:4] = ["pear" , "apple" , "berry"]
+print(alist)
+
+
+#append method:
+alista = ["pineapple" , "strawberry" , "blueberry"]
+alista.append("pear")
+print(alista)
+
+
+#extend method:
+Alist = ["pineapple" , "strawberry" , "blueberry"]
+colors = ["yellow" , "red" , "blue"]
+Alist.extend(colors)
+print(Alist)
+
+
+#insert method:
+MyList = ["grapes" , "pears" , "peaches"]
+MyList.insert(1,"melon")
+print(MyList)
+
+
+
+
+
+
+
+
+
+#practice
+colors=["green" , "red" , "blue"]
+colors[1]="black"
+print(colors)
+
+shapes=["square","rectangle","circle","star"]
+shapes[1:3]=["triangle","trapizoid"]
+print(shapes)
+
+mylist=["apple","cherry","berry"]
+mylist.append("orange")
+print(mylist)
+
+devices=["computer","ipad","laptop"]
+places=["community center","home","apartment"]
+devices.extend(places)
+print(devices)
+
+jobs=["doctor","police man","construction worker"]
+jobs.insert(1,"news")
+print(jobs)
+
+
+
+
+#remove items:
+daytime = ["awake","busy","bright","gloomy"]
+daytime.remove("gloomy")
+print(daytime)
+
+
+#pop():
+material = ["stone" , "plastic" , "wool"]
+material.pop (1)
+print (material)
+
+elements = ["water" , "fire" , "air"]
+elements.pop()
+print (elements)
+
+
+#clear():
+dessert = ["dango" , "icecream" , "chocolate"]
+dessert.clear()
+print(dessert)
+
+
+
+
+
+
+
+
+
+
+
+#practice
+daytime = ["awake","busy","bright","boring"]
+daytime.remove("boring")
+print(daytime)
+
+color = ["yellow","orange","red"]
+color.pop (1)
+print (color)
+
+machines = ["hair drier" , "fan" , "car"]
+machines.pop()
+print (machines)
+
+browsers = ["google" , "safari" , "bing"]
+browsers.clear()
+print (browsers)
+
+# ocean = ["fish" , "plastic" , "coral"]
+# del ocean
+# print(ocean)
+
+
+#practice
+#loop
+mylist = ["flowers","smiles","happy"]
+for x in mylist:
+    print(x)
+    
+mylist = ["apple","battle","castle"] 
+for a in range(len(mylist)):
+    print(mylist[a])
+    
+    
+#while loop:
+mylist = ["a","b","c"]
+i=0
+while i < len(mylist):
+    print(mylist[i])
+    i=i+1
+    
+
+#short hand for loop:
+mylist = ["hello","welcome","hi"]
+[print(d)for d in mylist]
