@@ -1,0 +1,63 @@
+#Python Tuples:
+#used to store multiple items in one variable
+#ordered but they are unchangeable
+#we use round brakets
+#Creating a tuple:
+myTuple = ("rock" , "paper" , "scissors")
+print (myTuple)
+
+
+#Getting the type:
+mytuple = ("adorable" , "cool" ,"nice")
+print(type(mytuple))
+
+
+#Get the length:
+MyTuple = ("hi" , "hello" , "welcome")
+print(len(MyTuple))
+
+
+#Allows duplicate values:
+my_Tuple = ("high" , "low" , "medium")
+print (my_Tuple)
+my_Tuple = ( "hello" , 124 , 234.65 , 53j , True )
+print (my_Tuple)
+
+
+#tuple()constructor:
+myTuple = tuple(("a" , "b" , "c" , "d"))
+print(myTuple)
+
+
+
+
+#Practice:
+
+mytuple = ("honor" , "pocket" ,"hi")
+print(type(mytuple))
+
+
+MyTuple = ("hill" , "hay" , "willingly")
+print(len(MyTuple))
+
+
+my_Tuple = ("kind" , "mean" , "average")
+print (my_Tuple)
+my_Tuple = ( "hehe" , 124 , 234.65 , 53j , True )
+print (my_Tuple)
+
+
+myTuple = tuple(("a" , "b" , "c" , "d"))
+print(myTuple)
+
+
+
+#Access items
+mytuple = ("Hi everyone!" , "Hello, world!" , "Hey You all!")
+print(mytuple[1:3])
+
+
+#Negitive indexing:
+mytuple = ("p" , "r" , "e")
+print(mytuple[-2:-1])
+print(mytuple)
