@@ -1,0 +1,106 @@
+#List Comprehesion
+mood = ["happy" , "sad" , "mad" , "normal"]
+newlist = []
+for x in mood:
+    if "p" in x:
+        newlist.append(x)
+    print(newlist)
+
+
+#Short List Comprehesion
+flavor = [ "blueberry" , "strawberry" , "vanilla" , "birthday cake" ]
+newlist = [i for i in flavor if "i" in i]
+print(newlist)
+
+
+#Sorting
+#Ascending
+sizes = [ "tiny" , "small" , "medium" , "big" , "large" ]
+sizes.sort()
+print(sizes)
+
+numbeRs = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10]
+numbeRs.sort()
+print ( numbeRs )
+
+#Decending
+sizes = [ "tiny" , "small" , "medium" , "big" , "large" ]
+sizes.sort(reverse = True)
+print ( sizes )
+
+numbers = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10]
+numbers.sort(reverse = True)
+print ( numbers )
+
+
+#Reverse Order
+Numbers = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10]
+Numbers.reverse()
+print ( Numbers )
+
+
+#Copy():
+mylist = [ "tiny" , "small" , "medium" , "large" , "big" ]
+newlist = mylist.copy()
+print(mylist)
+
+#List:
+drinks = ["boba" , "latte" , "tea" , "juice" , "water"]
+newlist = list(drinks)
+print(newlist)
+
+
+#Join List:
+list1 = [1 , 2 , 3 , 4 , 5]
+list2 = ["a" , "b" , "c" , "d" , "e"]
+list3 = list1 + list2
+print(list3)
+print(list1+list2)
+
+
+#Append():
+lists1 = [1,2,3,4,5]
+list2 = ["d","b","p"]
+for x in list2:
+    list1.append(x)
+    print(list1)
+    
+list1=[1,2,3,5,7]
+list2=["j" , "o" ,"y"]
+list2.extend(list1)
+print(list2)
+
+
+#Practice
+mylist = [ "tiny" , "small" , "medium" , "large" , "big" ]
+newlist = mylist.copy()
+print(mylist)
+
+#List:
+drinks = ["boba" , "latte" , "tea" , "juice" , "water"]
+newlist = list(drinks)
+print(newlist)
+
+
+#Join List:
+list1 = [1 , 2 , 3 , 4 , 5]
+list2 = ["a" , "b" , "c" , "d" , "e"]
+list3 = list1 + list2
+print(list3)
+print(list1+list2)
+
+
+#Append():
+lists1 = [1,2,3,4,5]
+list2 = ["d","b","p"]
+for x in list2:
+    list1.append(x)
+    print(list1)
+    
+list1=[1,2,3,5,7]
+list2=["j" , "o" ,"y"]
+list2.extend(list1)
+print(list2)
+
+
+
