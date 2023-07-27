@@ -1,0 +1,129 @@
+#Update Tuples:
+x = ("apple" , "pear" , "kiwi" , "peach")  
+y = list(x)
+y[2] = "cherry"
+x = tuple(y)
+print(x)
+
+x = ("string" , 12 , 12.31 , 12j , True)    
+y = list (x)
+y [2:6] = "100"
+x = tuple(y)
+print(x)
+
+x = ("string" , 12 , 12.31 , 12j , True)
+y = list (x)
+y [2:6] = ["boolean"]
+x = tuple(y)
+print(x)
+
+
+#Append():
+x = ("apple" , "pear" , "kiwi" , "peach")
+y = list(x)
+y.append("orange")
+x = tuple(y)
+print(x)
+
+
+#Remove():
+x = ("apple" , "pear" , "kiwi" , "peach")
+y = list(x)
+y.remove("pear")
+x = tuple(y)
+print(x)
+
+
+#Delete Tuple:
+# x = ("pear" , "pear" , "kiwi" , "peach")
+# del x
+# print(x)
+
+
+
+
+
+
+
+#Practice:
+
+q = ("football" , "soccer" , "vollyball" , "ice skating")
+y = list(q)
+y[1] = "swimming"
+tuple(y)
+print(q)
+
+
+a = ("hi" , 12 , 12.31 , 12j , False)    
+o = list (a)
+o [1:3] = "100"
+a = tuple(o)
+print(a)
+
+x = ("panda" , "fox" , "rabbit" , "squirel")
+y = list(x)
+y.append("bear")
+x = tuple(y)
+print(x)
+
+
+
+
+# f = ("dog" , "cat" , "fish" , "hamster")
+# del f
+# print(f)
+
+
+#Join Tuples:
+tuple1 = (357 , 658 , 353 , 654 , 13)
+tuple2 = ( "l" , "o" , "l" )
+tuple3 = tuple1 + tuple2
+print (tuple1 + tuple2)
+print (tuple3)
+
+
+#Multiply Tuples:
+o = (" hehe ")
+l = o*1
+print(l)
+
+
+#Join Tuples:
+tuple1 = (1 , 2 , 3 , 4 , 5)
+tuple2 = ( "A" , "B" , "C" )
+tuple3 = tuple1 + tuple2
+print (tuple1 + tuple2)
+print (tuple3)
+
+
+#Multiply Tuples:
+o = (" You wont get tired of my voice will you?! ")
+l = o*1
+print(l)
+
+
+#Unpack a Tuple:
+x = ("football" , "soccer" , "swim")
+(blue,yellow,pink) = x
+print(blue)
+print(yellow)
+print(pink)
+
+
+#Loop through a Tuple 
+i = ("moon" , "sun")    
+for i in range(len(x)):
+        print(x[i])
+        
+p = ("cool" , "cute")
+i = 0
+while i < len(x):
+    print(x[i])
+    i=i+1
+
+
+E = ("happy","sad","normal")
+for x in E:
+    print(x)
+    
+    
